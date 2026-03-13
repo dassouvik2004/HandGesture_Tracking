@@ -13,7 +13,7 @@ while True:
     result = hands.process(rgb)
 
     if result.multi_hand_landmarks:
-        print("Raja Khanki")
+        print("Hand Detected")
 
     cv2.imshow("Frame", frame)
 
